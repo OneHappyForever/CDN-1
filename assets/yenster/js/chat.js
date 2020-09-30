@@ -13,7 +13,7 @@ $('.sendBtn').on('click', function () {
 		var str = '';
 		str += '<li>' +
 			'<div class="nesHead"><img src="https://pan.cyfan.top/api/ava/"/></div>' +
-			'<div class="news"><img class="jiao" src="images/jiao.jpg">' + news + '</div>' +
+			'<div class="news"><img class="jiao" src="https://cdn.jsdelivr.net/gh/ChenYFan/CDN/assets/yenster/images/jiao.jpg">' + news + '</div>' +
 			'</li>';
 		$('.newsList').append(str);
 
@@ -125,8 +125,8 @@ function answers(answer) {
 	 * 这里删了两句代码，把<li>标签里的变量改为了answer
 	 */
 	answer = '<li>' +
-		'<div class="answerHead"><img src="images/6.jpg"/></div>' +
-		'<div class="answers" id="robot"><img class="jiao" src="images/20170926103645_03_02.jpg">' + answer + '</div>' +
+		'<div class="answerHead"><img src="https://cdn.jsdelivr.net/gh/ChenYFan/CDN/assets/yenster/images/6.jpg"/></div>' +
+		'<div class="answers" id="robot"><img class="jiao" src="https://cdn.jsdelivr.net/gh/ChenYFan/CDN/assets/yenster/images/20170926103645_03_02.jpg">' + answer + '</div>' +
 		'</li>';
 
 	$('.newsList').append(answer);
@@ -144,7 +144,7 @@ $('.emjon li').on('click', function () {
 	var str = "";
 	str += '<li>' +
 		'<div class="nesHead"><img src="https://pan.cyfan.top/api/ava/"/></div>' +
-		'<div class="news"><img class="jiao" src="images/20170926103645_03_02.jpg"><img class="Expr" src="' + imgSrc + '"></div>' +
+		'<div class="news"><img class="jiao" src="https://cdn.jsdelivr.net/gh/ChenYFan/CDN/assets/yenster/images/20170926103645_03_02.jpg"><img class="Expr" src="' + imgSrc + '"></div>' +
 		'</li>';
 	$('.newsList').append(str);
 	$('.emjon').hide();

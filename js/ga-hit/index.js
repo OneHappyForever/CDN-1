@@ -1,1 +1,22 @@
-(async()=>{var a=document.getElementById("pv-counter");var b=document.getElementById("post-meta-views");var c=document.location.toString();var d=c.split("//");var e=d[1].indexOf("/");var f=d[1].substring(e);if(f.indexOf("?")!=-1){f=f.split("?")[0]}const g=await fetch(`${window.post_views_api}?page=${f}`).then((res)=>res.json());const h=g[0].hit;if(h!==undefined&&b!==null){a.innerHTML=`${h}`;b.hidden=false}})();
+(async () => {
+  var obj = document.getElementById("pv-counter");
+
+  var show = document.getElementById("post-meta-views");
+
+  var url = document.location.toString();
+  var arrUrl = url.split("//");
+  var start = arrUrl[1].indexOf("/");
+
+  var relUrl = arrUrl[1].substring(start);
+  if (relUrl.indexOf("?") != -1) {
+    relUrl = relUrl.split("?")[0];
+  }
+  const json = await fetch(
+    `https://ga-hit.cyfan.top/api/ga?page=${relUrl}`
+  ).then((res) => res.json());
+  const hit = json[0].hit;
+  if (hit !== undefined && show !== null) {
+    obj.innerHTML = `${hit}`;
+    show.hidden = false;
+  }
+})();

@@ -7,7 +7,7 @@
             const strs = href.split('/');
             if (strs.length >= 3) {
                 const host = strs[2];
-                if (host !== 'blog.cyfan.top' || window.location.host) {
+                if (host !== 'blog.cyfan.top' || window.location.host || host !== 'travellings.now.sh' || host !== 'cyfan.top' || host !== 'tools.cyfan.top') {
                     $this.attr('href', '/jump.html?url='+href+'').attr('rel', 'external nofollow noopener noreferrer');
                     if (true) {
                         $this.attr('target', '_blank');

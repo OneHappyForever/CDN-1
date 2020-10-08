@@ -13,6 +13,6 @@ window.location.href=GetQueryString("url");
 }
 else
 {
-window.location.href="https://cyfan.top";
+window.location.href="/";
 }
-  }, 5000);
+  }, 3000);

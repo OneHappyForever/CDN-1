@@ -81,7 +81,6 @@
 { "icon": "<img src=\"https://cdn.jsdelivr.net/npm/chenyfan-oss@1.1.8/jyh5IVzpqXsHuvU.jpg\">", "text": "" },
 { "icon": "<img src=\"https://cdn.jsdelivr.net/npm/chenyfan-oss@1.1.8/KoqBGauX7TEfeyn.jpg\">", "text": "" },
 { "icon": "<img src=\"https://cdn.jsdelivr.net/npm/chenyfan-oss@1.1.8/KVwf8qCrZts6WOT.gif\">", "text": "" },
-{ "icon": "<img src=\"https://cdn.jsdelivr.net/npm/chenyfan-oss@1.1.8/list1.txt\">", "text": "" },
 { "icon": "<img src=\"https://cdn.jsdelivr.net/npm/chenyfan-oss@1.1.8/nt2ZWRozUNjBxAK.jpg\">", "text": "" },
 { "icon": "<img src=\"https://cdn.jsdelivr.net/npm/chenyfan-oss@1.1.8/ps7PTIANgSErqnU.jpg\">", "text": "" },
 { "icon": "<img src=\"https://cdn.jsdelivr.net/npm/chenyfan-oss@1.1.8/riySFlu75fJdG4p.png\">", "text": "" },
@@ -93,8 +92,10 @@
 { "icon": "<img src=\"https://cdn.jsdelivr.net/npm/chenyfan-oss@1.1.8/vFVPynXaHR5sitk.gif\">", "text": "" },
 { "icon": "<img src=\"https://cdn.jsdelivr.net/npm/chenyfan-oss@1.1.8/xJXcUtO2BryHAsa.gif\">", "text": "" },
 { "icon": "<img src=\"https://cdn.jsdelivr.net/npm/chenyfan-oss@1.1.8/yhuaji.png\">", "text": "" },
-{ "icon": "<img src=\"https://cdn.jsdelivr.net/npm/chenyfan-oss@1.1.8/zhuaji.png\">", "text": "" }]
-},"猫羽雫": {
+{ "icon": "<img src=\"https://cdn.jsdelivr.net/npm/chenyfan-oss@1.1.8/zhuaji.png\">", "text": "" }
+    ]
+},
+  "猫羽雫": {
     "type": "image",
     "container": [
 { "icon": "<img src=\"https://cdn.jsdelivr.net/npm/chenyfan-oss@1.1.8/stick_1.png\">", "text": "" },
@@ -178,8 +179,8 @@
 { "icon": "<img src=\"https://cdn.jsdelivr.net/npm/chenyfan-oss@1.1.8/stick_80.png\">", "text": "" },
 { "icon": "<img src=\"https://cdn.jsdelivr.net/npm/chenyfan-oss@1.1.8/stick_81.png\">", "text": "" },
 { "icon": "<img src=\"https://cdn.jsdelivr.net/npm/chenyfan-oss@1.1.8/stick_9.png\">", "text": "" }]},
-"猫羽雫": {
-    "type": "阿鲁",
+"阿鲁": {
+    "type": "image",
     "container": [
 { "icon": "<img src=\"https://cdn.jsdelivr.net/npm/chenyfan-oss@1.1.8/不出所料.png\">", "text": "" },
 { "icon": "<img src=\"https://cdn.jsdelivr.net/npm/chenyfan-oss@1.1.8/不说话.png\">", "text": "" },

@@ -1,0 +1,12 @@
+{
+    "schedule": "daily",
+    "ignoredFiles": [ 
+        "assets/*",
+        "css/*",
+        "docs/*",
+        "fonts/*",
+        "js/*",
+        "script/*"
+    ],
+    "aggressiveCompression": "false"
+}

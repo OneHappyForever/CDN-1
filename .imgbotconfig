@@ -1,5 +1,4 @@
 {
-    "schedule": "daily",
     "ignoredFiles": [ 
         "assets/*",
         "css/*",

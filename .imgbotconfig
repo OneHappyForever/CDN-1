@@ -5,7 +5,12 @@
         "docs/*",
         "fonts/*",
         "js/*",
-        "script/*"
+        "script/*",
+        "img/tools/*",
+        "img/ico/*",
+        "img/back/*",
+        "img/chenyfan.github.io/*",
+        "img/pan/*"
     ],
-    "aggressiveCompression": "false"
+    "aggressiveCompression": "true"
 }

@@ -51,10 +51,14 @@ var clouds = [
 
 var weather = [
 	{ type: 'snow', name: '雪天'}, 
-	{ type: 'wind', name: '刮风'}, 
-	{ type: 'rain', name: '下雨'}, 
+	{ type: 'wind', name: '多云'},
+	{ type: 'wind', name: '刮风'},
+	{ type: 'wind', name: '霾'},	
+	{ type: 'rain', name: '小雨'}, 
+	{ type: 'rain', name: '中雨'}, 
+	{ type: 'rain', name: '大雨'}, 
 	{ type: 'thunder', name: '雷雨'},
-	{ type: 'sun', name: '晴朗'}
+	{ type: 'sun', name: '晴'}
 ];
 
 // 🛠 app settings

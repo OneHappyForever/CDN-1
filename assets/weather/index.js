@@ -58,7 +58,8 @@ var weather = [
 	{ type: 'rain', name: '中雨'}, 
 	{ type: 'rain', name: '大雨'}, 
 	{ type: 'thunder', name: '雷雨'},
-	{ type: 'sun', name: '晴'}
+	{ type: 'sun', name: '晴'},
+	{ type: 'wind', name: '阴'}
 ];
 
 // 🛠 app settings

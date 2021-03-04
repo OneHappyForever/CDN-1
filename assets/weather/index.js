@@ -607,3 +607,11 @@ function changeWeather(weather)
 	
 	startLightningTimer();
 }
+    function _i(i,ii){
+document.getElementById('_t').innerHTML=`${res[i]["temp_day_c"]}<span>c</span>` 
+document.getElementById('date').innerHTML=`${res[i]["date"]}`
+for(var k=0;k<5;k++){
+document.getElementById(`day${k}`).className=``  
+}
+document.getElementById(`day${i}`).className=`active`    
+init(ii)}

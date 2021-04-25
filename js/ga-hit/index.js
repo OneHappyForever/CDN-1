@@ -12,7 +12,7 @@
     relUrl = relUrl.split("?")[0];
   }
   const json = await fetch(
-    `https://ga-hit.chenyfan.xyz/api/ga?page=${relUrl}`
+    `https://blog.cyfan.top/api/ga-hit?page=${relUrl}`
   ).then((res) => res.json());
   const hit = json[0].hit;
   if (hit !== undefined && show !== null) {
